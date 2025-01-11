@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" />
+    <button onclick="joinChat()">Join</button>
+</div>
+<div id="chat-container" style="display:none;">
+    <div id="chat"></div>
+    <input type="text" id="message" />
+    <button id="send" onclick="sendMessage()">Send</button>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
